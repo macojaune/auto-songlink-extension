@@ -1,21 +1,4 @@
-chrome.runtime.onInstalled.addListener(() => {
-	console.log('Extension SongLink Replacer installed');
-});
-// chrome.action.onClicked.addListener(async () => {
-// 	await chrome.offscreen.createDocument({
-// 		url: 'popup.html',
-// 		reasons: ['CLIPBOARD'],
-// 		justification: 'Write text to the clipboard.'
-// 	});
-// 	// Now that we have an offscreen document, we can dispatch the
-// // message.
-// 	chrome.runtime.sendMessage({
-// 		action: 'copyLink',
-// 		target:"offscreen"
-// 	});
-// });
-
-chrome.runtime.onMessage.addListener(async function (message, sender, sendResponse) {
+chrome.runtime.onMessage.addListener(async function (message) {
 	  try {
 		  if(message.action === 'resultLink') {}
 		  if (message.url) {

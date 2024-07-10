@@ -1,0 +1,24 @@
+{
+  "manifest_version": 3,
+  "name": "AutoSongLink",
+  "version": "0.1.0",
+  "description": "Remplace les liens de partage Spotify ou Apple Music par des liens SongLink.",
+  "permissions": [
+	"clipboardRead",
+	"clipboardWrite",
+	"activeTab"
+
+  ],
+  "host_permissions": [
+	"https://api.song.link/*"
+  ],
+  "background": {
+	"service_worker": "background.js"
+  },
+  "action": {
+	"default_popup": "popup.html"
+  },
+  "icons": {
+	"48": "icon.png"
+  }
+}

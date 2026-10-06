@@ -1,0 +1,326 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-10-05T23:23:14.881533+00:00",
+  "title": "Design System: AutoSongLink",
+  "extensions": {
+    "colorMeta": {
+      "background": {
+        "role": "neutral",
+        "displayName": "Fond olive sombre",
+        "canonical": "#171a17",
+        "tonalRamp": [
+          "oklch(15.00% 0.00738 145.31)",
+          "oklch(26.43% 0.00738 145.31)",
+          "oklch(37.86% 0.00738 145.31)",
+          "oklch(49.29% 0.00738 145.31)",
+          "oklch(60.71% 0.00738 145.31)",
+          "oklch(72.14% 0.00738 145.31)",
+          "oklch(83.57% 0.00738 145.31)",
+          "oklch(95.00% 0.00738 145.31)"
+        ]
+      },
+      "surface": {
+        "role": "neutral",
+        "displayName": "Olive du champ",
+        "canonical": "#20251f",
+        "tonalRamp": [
+          "oklch(15.00% 0.01320 140.45)",
+          "oklch(26.43% 0.01320 140.45)",
+          "oklch(37.86% 0.01320 140.45)",
+          "oklch(49.29% 0.01320 140.45)",
+          "oklch(60.71% 0.01320 140.45)",
+          "oklch(72.14% 0.01320 140.45)",
+          "oklch(83.57% 0.01320 140.45)",
+          "oklch(95.00% 0.01320 140.45)"
+        ]
+      },
+      "line": {
+        "role": "neutral",
+        "displayName": "Contour olive",
+        "canonical": "#3b4238",
+        "tonalRamp": [
+          "oklch(15.00% 0.01917 136.22)",
+          "oklch(26.43% 0.01917 136.22)",
+          "oklch(37.86% 0.01917 136.22)",
+          "oklch(49.29% 0.01917 136.22)",
+          "oklch(60.71% 0.01917 136.22)",
+          "oklch(72.14% 0.01917 136.22)",
+          "oklch(83.57% 0.01917 136.22)",
+          "oklch(95.00% 0.01917 136.22)"
+        ]
+      },
+      "ink": {
+        "role": "neutral",
+        "displayName": "Texte clair",
+        "canonical": "#f3f5ec",
+        "tonalRamp": [
+          "oklch(15.00% 0.01207 116.81)",
+          "oklch(26.43% 0.01207 116.81)",
+          "oklch(37.86% 0.01207 116.81)",
+          "oklch(49.29% 0.01207 116.81)",
+          "oklch(60.71% 0.01207 116.81)",
+          "oklch(72.14% 0.01207 116.81)",
+          "oklch(83.57% 0.01207 116.81)",
+          "oklch(95.00% 0.01207 116.81)"
+        ]
+      },
+      "muted": {
+        "role": "neutral",
+        "displayName": "Texte secondaire",
+        "canonical": "#afb8a7",
+        "tonalRamp": [
+          "oklch(15.00% 0.02573 129.97)",
+          "oklch(26.43% 0.02573 129.97)",
+          "oklch(37.86% 0.02573 129.97)",
+          "oklch(49.29% 0.02573 129.97)",
+          "oklch(60.71% 0.02573 129.97)",
+          "oklch(72.14% 0.02573 129.97)",
+          "oklch(83.57% 0.02573 129.97)",
+          "oklch(95.00% 0.02573 129.97)"
+        ]
+      },
+      "accent": {
+        "role": "primary",
+        "displayName": "Citron",
+        "canonical": "#dbf878",
+        "tonalRamp": [
+          "oklch(15.00% 0.15726 120.13)",
+          "oklch(26.43% 0.15726 120.13)",
+          "oklch(37.86% 0.15726 120.13)",
+          "oklch(49.29% 0.15726 120.13)",
+          "oklch(60.71% 0.15726 120.13)",
+          "oklch(72.14% 0.15726 120.13)",
+          "oklch(83.57% 0.15726 120.13)",
+          "oklch(95.00% 0.15726 120.13)"
+        ]
+      },
+      "error": {
+        "role": "error",
+        "displayName": "Erreur saumon",
+        "canonical": "#ffb8a8",
+        "tonalRamp": [
+          "oklch(15.00% 0.08610 33.10)",
+          "oklch(26.43% 0.08610 33.10)",
+          "oklch(37.86% 0.08610 33.10)",
+          "oklch(49.29% 0.08610 33.10)",
+          "oklch(60.71% 0.08610 33.10)",
+          "oklch(72.14% 0.08610 33.10)",
+          "oklch(83.57% 0.08610 33.10)",
+          "oklch(95.00% 0.08610 33.10)"
+        ]
+      },
+      "paste-background": {
+        "role": "neutral",
+        "displayName": "Collage au repos",
+        "canonical": "#323a2c",
+        "tonalRamp": [
+          "oklch(15.00% 0.02619 131.97)",
+          "oklch(26.43% 0.02619 131.97)",
+          "oklch(37.86% 0.02619 131.97)",
+          "oklch(49.29% 0.02619 131.97)",
+          "oklch(60.71% 0.02619 131.97)",
+          "oklch(72.14% 0.02619 131.97)",
+          "oklch(83.57% 0.02619 131.97)",
+          "oklch(95.00% 0.02619 131.97)"
+        ]
+      },
+      "paste-hover": {
+        "role": "neutral",
+        "displayName": "Collage survolé",
+        "canonical": "#424d36",
+        "tonalRamp": [
+          "oklch(15.00% 0.03968 128.83)",
+          "oklch(26.43% 0.03968 128.83)",
+          "oklch(37.86% 0.03968 128.83)",
+          "oklch(49.29% 0.03968 128.83)",
+          "oklch(60.71% 0.03968 128.83)",
+          "oklch(72.14% 0.03968 128.83)",
+          "oklch(83.57% 0.03968 128.83)",
+          "oklch(95.00% 0.03968 128.83)"
+        ]
+      },
+      "paste-active": {
+        "role": "neutral",
+        "displayName": "Collage appuyé",
+        "canonical": "#566344",
+        "tonalRamp": [
+          "oklch(15.00% 0.05019 126.69)",
+          "oklch(26.43% 0.05019 126.69)",
+          "oklch(37.86% 0.05019 126.69)",
+          "oklch(49.29% 0.05019 126.69)",
+          "oklch(60.71% 0.05019 126.69)",
+          "oklch(72.14% 0.05019 126.69)",
+          "oklch(83.57% 0.05019 126.69)",
+          "oklch(95.00% 0.05019 126.69)"
+        ]
+      },
+      "action-ink": {
+        "role": "neutral",
+        "displayName": "Texte de l’action",
+        "canonical": "#1c2410",
+        "tonalRamp": [
+          "oklch(15.00% 0.03703 126.76)",
+          "oklch(26.43% 0.03703 126.76)",
+          "oklch(37.86% 0.03703 126.76)",
+          "oklch(49.29% 0.03703 126.76)",
+          "oklch(60.71% 0.03703 126.76)",
+          "oklch(72.14% 0.03703 126.76)",
+          "oklch(83.57% 0.03703 126.76)",
+          "oklch(95.00% 0.03703 126.76)"
+        ]
+      },
+      "action-hover": {
+        "role": "primary",
+        "displayName": "Action survolée",
+        "canonical": "#e7ff9e",
+        "tonalRamp": [
+          "oklch(15.00% 0.12405 120.12)",
+          "oklch(26.43% 0.12405 120.12)",
+          "oklch(37.86% 0.12405 120.12)",
+          "oklch(49.29% 0.12405 120.12)",
+          "oklch(60.71% 0.12405 120.12)",
+          "oklch(72.14% 0.12405 120.12)",
+          "oklch(83.57% 0.12405 120.12)",
+          "oklch(95.00% 0.12405 120.12)"
+        ]
+      },
+      "action-active": {
+        "role": "primary",
+        "displayName": "Action appuyée",
+        "canonical": "#c9e66b",
+        "tonalRamp": [
+          "oklch(15.00% 0.15276 120.67)",
+          "oklch(26.43% 0.15276 120.67)",
+          "oklch(37.86% 0.15276 120.67)",
+          "oklch(49.29% 0.15276 120.67)",
+          "oklch(60.71% 0.15276 120.67)",
+          "oklch(72.14% 0.15276 120.67)",
+          "oklch(83.57% 0.15276 120.67)",
+          "oklch(95.00% 0.15276 120.67)"
+        ]
+      },
+      "action-copied": {
+        "role": "primary",
+        "displayName": "Action copiée",
+        "canonical": "#c5e28a",
+        "tonalRamp": [
+          "oklch(15.00% 0.11747 123.69)",
+          "oklch(26.43% 0.11747 123.69)",
+          "oklch(37.86% 0.11747 123.69)",
+          "oklch(49.29% 0.11747 123.69)",
+          "oklch(60.71% 0.11747 123.69)",
+          "oklch(72.14% 0.11747 123.69)",
+          "oklch(83.57% 0.11747 123.69)",
+          "oklch(95.00% 0.11747 123.69)"
+        ]
+      }
+    },
+    "typographyMeta": {
+      "brand": {
+        "displayName": "brand",
+        "purpose": "Marque15px"
+      },
+      "input": {
+        "displayName": "input",
+        "purpose": "Saisie12px"
+      },
+      "share-link": {
+        "displayName": "share-link",
+        "purpose": "URL12px"
+      },
+      "action": {
+        "displayName": "action",
+        "purpose": "Action13px"
+      }
+    },
+    "shadows": [],
+    "motion": [
+      {
+        "name": "field-state",
+        "value": "border-color 160ms ease-out",
+        "purpose": "Focus et erreur du champ."
+      },
+      {
+        "name": "paste-state",
+        "value": "background 160ms ease-out",
+        "purpose": "Survol et appui du bouton de collage."
+      },
+      {
+        "name": "action-state",
+        "value": "background 150ms ease-out",
+        "purpose": "Fond du bouton principal."
+      }
+    ],
+    "breakpoints": [],
+    "reducedMotion": "prefers-reduced-motion: reduce supprime toutes les animations et transitions.",
+    "focus": {
+      "value": "2px solid #dbf878",
+      "offset": "3px",
+      "field": "bordure citron et contour1px"
+    },
+    "tokenSource": "src/styles.css ; couleurs de l’icône confirmées dans public/icons/mark.svg.",
+    "tonalRampPurpose": "Aperçus documentaires synthétiques en OKLCH ; aucune rampe n’est utilisée dans le CSS de production.",
+    "popupBounds": "Largeur360px limitée au viewport; padding16px; hauteur174px vide et205px avec le résultat Spotify."
+  },
+  "components": [
+    {
+      "name": "Bouton principal",
+      "kind": "button",
+      "refersTo": "button-primary",
+      "description": "Conversion et copie, confirmation dans le bouton.",
+      "html": "<button id=\"convert\" class=\"primary-button\" type=\"submit\">\n          <svg id=\"action-icon\" width=\"18\" height=\"18\" viewBox=\"0 0 24 24\" fill=\"none\" aria-hidden=\"true\"><rect x=\"8\" y=\"8\" width=\"12\" height=\"13\" rx=\"2\" stroke=\"currentColor\" stroke-width=\"1.8\" /><path d=\"M16 8V5a2 2 0 0 0-2-2H5a2 2 0 0 0-2 2v9a2 2 0 0 0 2 2h3\" stroke=\"currentColor\" stroke-width=\"1.8\" stroke-linecap=\"round\" /></svg>\n          <svg id=\"success-icon\" width=\"18\" height=\"18\" viewBox=\"0 0 24 24\" fill=\"none\" aria-hidden=\"true\" hidden><path d=\"m5 12 4 4L19 6\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" /></svg>\n          <span id=\"action-label\">Convertir et copier</span>\n        </button>",
+      "css": ":host {\n  font-family: \"Manrope Variable\", sans-serif;\n  color-scheme: dark;\n  --background: #171a17;\n  --surface: #20251f;\n  --line: #3b4238;\n  --ink: #f3f5ec;\n  --muted: #afb8a7;\n  --accent: #dbf878;\n  --error: #ffb8a8;\n  color: var(--ink);\n  background: var(--background);\n  font-synthesis: none;\n  text-rendering: optimizeLegibility;\n  -webkit-font-smoothing: antialiased;\n}\n\n* {\n  box-sizing: border-box;\n}\n[hidden] {\n  /* biome-ignore lint/complexity/noImportantStyles: hidden overrides the display of controls and SVGs. */\n  display: none !important;\n}\nbody {\n  margin: 0;\n  width: 100%;\n  max-width: 100vw;\n}\nbutton,\ninput {\n  font: inherit;\n}\nbutton,\na {\n  -webkit-tap-highlight-color: transparent;\n}\nbutton {\n  cursor: pointer;\n}\nbutton:disabled {\n  cursor: wait;\n  opacity: 0.6;\n}\na {\n  color: inherit;\n  text-underline-offset: 4px;\n}\nbutton:focus-visible,\na:focus-visible {\n  outline: 2px solid var(--accent);\n  outline-offset: 3px;\n}\n::selection {\n  color: var(--background);\n  background: var(--accent);\n}\n::-webkit-scrollbar {\n  width: 5px;\n}\n::-webkit-scrollbar-thumb {\n  background: var(--line);\n  border-radius: 4px;\n}\n.popup {\n  padding: 16px;\n}\n.header {\n  display: flex;\n  align-items: center;\n  justify-content: space-between;\n  min-height: 28px;\n  margin-bottom: 16px;\n}\n.brand {\n  display: inline-flex;\n  align-items: center;\n  gap: 8px;\n  margin: 0;\n  font-size: 15px;\n  font-weight: 750;\n  letter-spacing: -0.025em;\n}\n.brand-mark {\n  flex-shrink: 0;\n  color: var(--accent);\n}\n.tab-button {\n  display: grid;\n  place-items: center;\n  width: 28px;\n  height: 28px;\n  padding: 0;\n  border: 0;\n  border-radius: 6px;\n  background: transparent;\n  color: var(--muted);\n}\n.tab-button:hover {\n  color: var(--accent);\n  background: var(--surface);\n}\n.input-wrap {\n  display: flex;\n  align-items: center;\n  gap: 8px;\n  padding: 6px 6px 6px 10px;\n  background: var(--surface);\n  border: 1px solid var(--line);\n  border-radius: 9px;\n  transition: border-color 160ms ease-out;\n}\n.input-wrap:focus-within {\n  border-color: var(--accent);\n  outline: 1px solid var(--accent);\n}\n.input-wrap:has([aria-invalid=\"true\"]) {\n  border-color: var(--error);\n}\n.input-icon {\n  flex-shrink: 0;\n  color: var(--muted);\n}\ninput {\n  width: 100%;\n  min-width: 0;\n  padding: 4px 0;\n  color: var(--ink);\n  background: transparent;\n  border: 0;\n  outline: none;\n  font-size: 12px;\n  line-height: 20px;\n  caret-color: var(--accent);\n}\ninput::placeholder {\n  color: var(--muted);\n  opacity: 1;\n}\n.icon-button {\n  flex-shrink: 0;\n  display: grid;\n  place-items: center;\n  width: 30px;\n  height: 30px;\n  border: 0;\n  border-radius: 6px;\n  color: var(--ink);\n  background: #323a2c;\n  transition: background 160ms ease-out;\n}\n.icon-button:hover {\n  background: #424d36;\n}\n.icon-button:active {\n  background: #566344;\n}\n.result {\n  margin-top: 12px;\n}\n.share-link {\n  display: flex;\n  justify-content: space-between;\n  align-items: center;\n  gap: 8px;\n  color: var(--muted);\n  font-size: 12px;\n  line-height: 1.6;\n  text-decoration: none;\n}\n.share-link span {\n  overflow-wrap: anywhere;\n}\n.share-link svg {\n  flex-shrink: 0;\n  color: var(--accent);\n}\n.share-link:hover {\n  color: var(--ink);\n  text-decoration: underline;\n}\n.primary-button {\n  width: 100%;\n  min-height: 42px;\n  margin-top: 12px;\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  gap: 8px;\n  border: 0;\n  border-radius: 9px;\n  color: #1c2410;\n  background: var(--accent);\n  font-size: 13px;\n  font-weight: 750;\n  transition: background 150ms ease-out;\n}\n.primary-button:hover {\n  background: #e7ff9e;\n}\n.primary-button:active {\n  background: #c9e66b;\n}\n.primary-button[data-state=\"copied\"] {\n  background: #c5e28a;\n}\n.status,\n.visually-hidden {\n  position: absolute;\n  width: 1px;\n  height: 1px;\n  margin: -1px;\n  padding: 0;\n  overflow: hidden;\n  clip-path: inset(50%);\n  white-space: nowrap;\n  border: 0;\n}\n.status[data-state=\"error\"] {\n  position: static;\n  width: auto;\n  height: auto;\n  margin: 12px 0 0;\n  overflow: visible;\n  clip-path: none;\n  white-space: normal;\n  color: var(--error);\n  font-size: 12px;\n  line-height: 1.5;\n}\n@media (prefers-reduced-motion: reduce) {\n  *,\n  *::before,\n  *::after {\n    /* biome-ignore lint/complexity/noImportantStyles: accessibility preferences override control transitions. */\n    transition: none !important;\n  }\n}\n"
+    },
+    {
+      "name": "Bouton de collage",
+      "kind": "button",
+      "refersTo": "button-paste",
+      "description": "Collage à la demande.",
+      "html": "<button id=\"paste\" class=\"icon-button\" type=\"button\" aria-label=\"Coller depuis le presse-papier\" title=\"Coller depuis le presse-papier\">\n            <svg width=\"18\" height=\"18\" viewBox=\"0 0 24 24\" fill=\"none\" aria-hidden=\"true\"><path d=\"M9 5H6a2 2 0 0 0-2 2v13a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7a2 2 0 0 0-2-2h-3M9 2h6v6H9z\" stroke=\"currentColor\" stroke-width=\"1.7\" stroke-linecap=\"round\" stroke-linejoin=\"round\" /></svg>\n          </button>",
+      "css": ":host {\n  font-family: \"Manrope Variable\", sans-serif;\n  color-scheme: dark;\n  --background: #171a17;\n  --surface: #20251f;\n  --line: #3b4238;\n  --ink: #f3f5ec;\n  --muted: #afb8a7;\n  --accent: #dbf878;\n  --error: #ffb8a8;\n  color: var(--ink);\n  background: var(--background);\n  font-synthesis: none;\n  text-rendering: optimizeLegibility;\n  -webkit-font-smoothing: antialiased;\n}\n\n* {\n  box-sizing: border-box;\n}\n[hidden] {\n  /* biome-ignore lint/complexity/noImportantStyles: hidden overrides the display of controls and SVGs. */\n  display: none !important;\n}\nbody {\n  margin: 0;\n  width: 100%;\n  max-width: 100vw;\n}\nbutton,\ninput {\n  font: inherit;\n}\nbutton,\na {\n  -webkit-tap-highlight-color: transparent;\n}\nbutton {\n  cursor: pointer;\n}\nbutton:disabled {\n  cursor: wait;\n  opacity: 0.6;\n}\na {\n  color: inherit;\n  text-underline-offset: 4px;\n}\nbutton:focus-visible,\na:focus-visible {\n  outline: 2px solid var(--accent);\n  outline-offset: 3px;\n}\n::selection {\n  color: var(--background);\n  background: var(--accent);\n}\n::-webkit-scrollbar {\n  width: 5px;\n}\n::-webkit-scrollbar-thumb {\n  background: var(--line);\n  border-radius: 4px;\n}\n.popup {\n  padding: 16px;\n}\n.header {\n  display: flex;\n  align-items: center;\n  justify-content: space-between;\n  min-height: 28px;\n  margin-bottom: 16px;\n}\n.brand {\n  display: inline-flex;\n  align-items: center;\n  gap: 8px;\n  margin: 0;\n  font-size: 15px;\n  font-weight: 750;\n  letter-spacing: -0.025em;\n}\n.brand-mark {\n  flex-shrink: 0;\n  color: var(--accent);\n}\n.tab-button {\n  display: grid;\n  place-items: center;\n  width: 28px;\n  height: 28px;\n  padding: 0;\n  border: 0;\n  border-radius: 6px;\n  background: transparent;\n  color: var(--muted);\n}\n.tab-button:hover {\n  color: var(--accent);\n  background: var(--surface);\n}\n.input-wrap {\n  display: flex;\n  align-items: center;\n  gap: 8px;\n  padding: 6px 6px 6px 10px;\n  background: var(--surface);\n  border: 1px solid var(--line);\n  border-radius: 9px;\n  transition: border-color 160ms ease-out;\n}\n.input-wrap:focus-within {\n  border-color: var(--accent);\n  outline: 1px solid var(--accent);\n}\n.input-wrap:has([aria-invalid=\"true\"]) {\n  border-color: var(--error);\n}\n.input-icon {\n  flex-shrink: 0;\n  color: var(--muted);\n}\ninput {\n  width: 100%;\n  min-width: 0;\n  padding: 4px 0;\n  color: var(--ink);\n  background: transparent;\n  border: 0;\n  outline: none;\n  font-size: 12px;\n  line-height: 20px;\n  caret-color: var(--accent);\n}\ninput::placeholder {\n  color: var(--muted);\n  opacity: 1;\n}\n.icon-button {\n  flex-shrink: 0;\n  display: grid;\n  place-items: center;\n  width: 30px;\n  height: 30px;\n  border: 0;\n  border-radius: 6px;\n  color: var(--ink);\n  background: #323a2c;\n  transition: background 160ms ease-out;\n}\n.icon-button:hover {\n  background: #424d36;\n}\n.icon-button:active {\n  background: #566344;\n}\n.result {\n  margin-top: 12px;\n}\n.share-link {\n  display: flex;\n  justify-content: space-between;\n  align-items: center;\n  gap: 8px;\n  color: var(--muted);\n  font-size: 12px;\n  line-height: 1.6;\n  text-decoration: none;\n}\n.share-link span {\n  overflow-wrap: anywhere;\n}\n.share-link svg {\n  flex-shrink: 0;\n  color: var(--accent);\n}\n.share-link:hover {\n  color: var(--ink);\n  text-decoration: underline;\n}\n.primary-button {\n  width: 100%;\n  min-height: 42px;\n  margin-top: 12px;\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  gap: 8px;\n  border: 0;\n  border-radius: 9px;\n  color: #1c2410;\n  background: var(--accent);\n  font-size: 13px;\n  font-weight: 750;\n  transition: background 150ms ease-out;\n}\n.primary-button:hover {\n  background: #e7ff9e;\n}\n.primary-button:active {\n  background: #c9e66b;\n}\n.primary-button[data-state=\"copied\"] {\n  background: #c5e28a;\n}\n.status,\n.visually-hidden {\n  position: absolute;\n  width: 1px;\n  height: 1px;\n  margin: -1px;\n  padding: 0;\n  overflow: hidden;\n  clip-path: inset(50%);\n  white-space: nowrap;\n  border: 0;\n}\n.status[data-state=\"error\"] {\n  position: static;\n  width: auto;\n  height: auto;\n  margin: 12px 0 0;\n  overflow: visible;\n  clip-path: none;\n  white-space: normal;\n  color: var(--error);\n  font-size: 12px;\n  line-height: 1.5;\n}\n@media (prefers-reduced-motion: reduce) {\n  *,\n  *::before,\n  *::after {\n    /* biome-ignore lint/complexity/noImportantStyles: accessibility preferences override control transitions. */\n    transition: none !important;\n  }\n}\n"
+    },
+    {
+      "name": "Utiliser cet onglet",
+      "kind": "button",
+      "refersTo": "button-tab",
+      "description": "Action conditionnelle sur l’onglet.",
+      "html": "<button id=\"use-tab\" class=\"tab-button\" type=\"button\" aria-label=\"Utiliser le lien de cet onglet\" title=\"Utiliser le lien de cet onglet\">\n          <svg width=\"18\" height=\"18\" viewBox=\"0 0 24 24\" fill=\"none\" aria-hidden=\"true\"><rect x=\"3\" y=\"4\" width=\"18\" height=\"16\" rx=\"2\" stroke=\"currentColor\" stroke-width=\"1.7\" /><path d=\"M3 8h18m-12 6h6m-3-3 3 3-3 3\" stroke=\"currentColor\" stroke-width=\"1.7\" stroke-linecap=\"round\" stroke-linejoin=\"round\" /></svg>\n        </button>",
+      "css": ":host {\n  font-family: \"Manrope Variable\", sans-serif;\n  color-scheme: dark;\n  --background: #171a17;\n  --surface: #20251f;\n  --line: #3b4238;\n  --ink: #f3f5ec;\n  --muted: #afb8a7;\n  --accent: #dbf878;\n  --error: #ffb8a8;\n  color: var(--ink);\n  background: var(--background);\n  font-synthesis: none;\n  text-rendering: optimizeLegibility;\n  -webkit-font-smoothing: antialiased;\n}\n\n* {\n  box-sizing: border-box;\n}\n[hidden] {\n  /* biome-ignore lint/complexity/noImportantStyles: hidden overrides the display of controls and SVGs. */\n  display: none !important;\n}\nbody {\n  margin: 0;\n  width: 100%;\n  max-width: 100vw;\n}\nbutton,\ninput {\n  font: inherit;\n}\nbutton,\na {\n  -webkit-tap-highlight-color: transparent;\n}\nbutton {\n  cursor: pointer;\n}\nbutton:disabled {\n  cursor: wait;\n  opacity: 0.6;\n}\na {\n  color: inherit;\n  text-underline-offset: 4px;\n}\nbutton:focus-visible,\na:focus-visible {\n  outline: 2px solid var(--accent);\n  outline-offset: 3px;\n}\n::selection {\n  color: var(--background);\n  background: var(--accent);\n}\n::-webkit-scrollbar {\n  width: 5px;\n}\n::-webkit-scrollbar-thumb {\n  background: var(--line);\n  border-radius: 4px;\n}\n.popup {\n  padding: 16px;\n}\n.header {\n  display: flex;\n  align-items: center;\n  justify-content: space-between;\n  min-height: 28px;\n  margin-bottom: 16px;\n}\n.brand {\n  display: inline-flex;\n  align-items: center;\n  gap: 8px;\n  margin: 0;\n  font-size: 15px;\n  font-weight: 750;\n  letter-spacing: -0.025em;\n}\n.brand-mark {\n  flex-shrink: 0;\n  color: var(--accent);\n}\n.tab-button {\n  display: grid;\n  place-items: center;\n  width: 28px;\n  height: 28px;\n  padding: 0;\n  border: 0;\n  border-radius: 6px;\n  background: transparent;\n  color: var(--muted);\n}\n.tab-button:hover {\n  color: var(--accent);\n  background: var(--surface);\n}\n.input-wrap {\n  display: flex;\n  align-items: center;\n  gap: 8px;\n  padding: 6px 6px 6px 10px;\n  background: var(--surface);\n  border: 1px solid var(--line);\n  border-radius: 9px;\n  transition: border-color 160ms ease-out;\n}\n.input-wrap:focus-within {\n  border-color: var(--accent);\n  outline: 1px solid var(--accent);\n}\n.input-wrap:has([aria-invalid=\"true\"]) {\n  border-color: var(--error);\n}\n.input-icon {\n  flex-shrink: 0;\n  color: var(--muted);\n}\ninput {\n  width: 100%;\n  min-width: 0;\n  padding: 4px 0;\n  color: var(--ink);\n  background: transparent;\n  border: 0;\n  outline: none;\n  font-size: 12px;\n  line-height: 20px;\n  caret-color: var(--accent);\n}\ninput::placeholder {\n  color: var(--muted);\n  opacity: 1;\n}\n.icon-button {\n  flex-shrink: 0;\n  display: grid;\n  place-items: center;\n  width: 30px;\n  height: 30px;\n  border: 0;\n  border-radius: 6px;\n  color: var(--ink);\n  background: #323a2c;\n  transition: background 160ms ease-out;\n}\n.icon-button:hover {\n  background: #424d36;\n}\n.icon-button:active {\n  background: #566344;\n}\n.result {\n  margin-top: 12px;\n}\n.share-link {\n  display: flex;\n  justify-content: space-between;\n  align-items: center;\n  gap: 8px;\n  color: var(--muted);\n  font-size: 12px;\n  line-height: 1.6;\n  text-decoration: none;\n}\n.share-link span {\n  overflow-wrap: anywhere;\n}\n.share-link svg {\n  flex-shrink: 0;\n  color: var(--accent);\n}\n.share-link:hover {\n  color: var(--ink);\n  text-decoration: underline;\n}\n.primary-button {\n  width: 100%;\n  min-height: 42px;\n  margin-top: 12px;\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  gap: 8px;\n  border: 0;\n  border-radius: 9px;\n  color: #1c2410;\n  background: var(--accent);\n  font-size: 13px;\n  font-weight: 750;\n  transition: background 150ms ease-out;\n}\n.primary-button:hover {\n  background: #e7ff9e;\n}\n.primary-button:active {\n  background: #c9e66b;\n}\n.primary-button[data-state=\"copied\"] {\n  background: #c5e28a;\n}\n.status,\n.visually-hidden {\n  position: absolute;\n  width: 1px;\n  height: 1px;\n  margin: -1px;\n  padding: 0;\n  overflow: hidden;\n  clip-path: inset(50%);\n  white-space: nowrap;\n  border: 0;\n}\n.status[data-state=\"error\"] {\n  position: static;\n  width: auto;\n  height: auto;\n  margin: 12px 0 0;\n  overflow: visible;\n  clip-path: none;\n  white-space: normal;\n  color: var(--error);\n  font-size: 12px;\n  line-height: 1.5;\n}\n@media (prefers-reduced-motion: reduce) {\n  *,\n  *::before,\n  *::after {\n    /* biome-ignore lint/complexity/noImportantStyles: accessibility preferences override control transitions. */\n    transition: none !important;\n  }\n}\n"
+    },
+    {
+      "name": "Champ musical",
+      "kind": "input",
+      "refersTo": "field",
+      "description": "Champ unique avec label accessible dans le popup.",
+      "html": "<div class=\"input-wrap\">\n          <svg class=\"input-icon\" width=\"18\" height=\"18\" viewBox=\"0 0 24 24\" fill=\"none\" aria-hidden=\"true\"><path d=\"m10 14 4-4M8 16l-1 1a4.24 4.24 0 0 1-6-6l4-4a4.24 4.24 0 0 1 6 0m2 2 1-1a4.24 4.24 0 0 1 6 6l-4 4a4.24 4.24 0 0 1-6 0\" stroke=\"currentColor\" stroke-width=\"1.7\" stroke-linecap=\"round\" transform=\"translate(1 0)\" /></svg>\n          <input id=\"music-url\" type=\"text\" inputmode=\"url\" placeholder=\"Colle un lien musical\" autocomplete=\"off\" spellcheck=\"false\" />\n          <button id=\"paste\" class=\"icon-button\" type=\"button\" aria-label=\"Coller depuis le presse-papier\" title=\"Coller depuis le presse-papier\">\n            <svg width=\"18\" height=\"18\" viewBox=\"0 0 24 24\" fill=\"none\" aria-hidden=\"true\"><path d=\"M9 5H6a2 2 0 0 0-2 2v13a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7a2 2 0 0 0-2-2h-3M9 2h6v6H9z\" stroke=\"currentColor\" stroke-width=\"1.7\" stroke-linecap=\"round\" stroke-linejoin=\"round\" /></svg>\n          </button>\n        </div>",
+      "css": ":host {\n  font-family: \"Manrope Variable\", sans-serif;\n  color-scheme: dark;\n  --background: #171a17;\n  --surface: #20251f;\n  --line: #3b4238;\n  --ink: #f3f5ec;\n  --muted: #afb8a7;\n  --accent: #dbf878;\n  --error: #ffb8a8;\n  color: var(--ink);\n  background: var(--background);\n  font-synthesis: none;\n  text-rendering: optimizeLegibility;\n  -webkit-font-smoothing: antialiased;\n}\n\n* {\n  box-sizing: border-box;\n}\n[hidden] {\n  /* biome-ignore lint/complexity/noImportantStyles: hidden overrides the display of controls and SVGs. */\n  display: none !important;\n}\nbody {\n  margin: 0;\n  width: 100%;\n  max-width: 100vw;\n}\nbutton,\ninput {\n  font: inherit;\n}\nbutton,\na {\n  -webkit-tap-highlight-color: transparent;\n}\nbutton {\n  cursor: pointer;\n}\nbutton:disabled {\n  cursor: wait;\n  opacity: 0.6;\n}\na {\n  color: inherit;\n  text-underline-offset: 4px;\n}\nbutton:focus-visible,\na:focus-visible {\n  outline: 2px solid var(--accent);\n  outline-offset: 3px;\n}\n::selection {\n  color: var(--background);\n  background: var(--accent);\n}\n::-webkit-scrollbar {\n  width: 5px;\n}\n::-webkit-scrollbar-thumb {\n  background: var(--line);\n  border-radius: 4px;\n}\n.popup {\n  padding: 16px;\n}\n.header {\n  display: flex;\n  align-items: center;\n  justify-content: space-between;\n  min-height: 28px;\n  margin-bottom: 16px;\n}\n.brand {\n  display: inline-flex;\n  align-items: center;\n  gap: 8px;\n  margin: 0;\n  font-size: 15px;\n  font-weight: 750;\n  letter-spacing: -0.025em;\n}\n.brand-mark {\n  flex-shrink: 0;\n  color: var(--accent);\n}\n.tab-button {\n  display: grid;\n  place-items: center;\n  width: 28px;\n  height: 28px;\n  padding: 0;\n  border: 0;\n  border-radius: 6px;\n  background: transparent;\n  color: var(--muted);\n}\n.tab-button:hover {\n  color: var(--accent);\n  background: var(--surface);\n}\n.input-wrap {\n  display: flex;\n  align-items: center;\n  gap: 8px;\n  padding: 6px 6px 6px 10px;\n  background: var(--surface);\n  border: 1px solid var(--line);\n  border-radius: 9px;\n  transition: border-color 160ms ease-out;\n}\n.input-wrap:focus-within {\n  border-color: var(--accent);\n  outline: 1px solid var(--accent);\n}\n.input-wrap:has([aria-invalid=\"true\"]) {\n  border-color: var(--error);\n}\n.input-icon {\n  flex-shrink: 0;\n  color: var(--muted);\n}\ninput {\n  width: 100%;\n  min-width: 0;\n  padding: 4px 0;\n  color: var(--ink);\n  background: transparent;\n  border: 0;\n  outline: none;\n  font-size: 12px;\n  line-height: 20px;\n  caret-color: var(--accent);\n}\ninput::placeholder {\n  color: var(--muted);\n  opacity: 1;\n}\n.icon-button {\n  flex-shrink: 0;\n  display: grid;\n  place-items: center;\n  width: 30px;\n  height: 30px;\n  border: 0;\n  border-radius: 6px;\n  color: var(--ink);\n  background: #323a2c;\n  transition: background 160ms ease-out;\n}\n.icon-button:hover {\n  background: #424d36;\n}\n.icon-button:active {\n  background: #566344;\n}\n.result {\n  margin-top: 12px;\n}\n.share-link {\n  display: flex;\n  justify-content: space-between;\n  align-items: center;\n  gap: 8px;\n  color: var(--muted);\n  font-size: 12px;\n  line-height: 1.6;\n  text-decoration: none;\n}\n.share-link span {\n  overflow-wrap: anywhere;\n}\n.share-link svg {\n  flex-shrink: 0;\n  color: var(--accent);\n}\n.share-link:hover {\n  color: var(--ink);\n  text-decoration: underline;\n}\n.primary-button {\n  width: 100%;\n  min-height: 42px;\n  margin-top: 12px;\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  gap: 8px;\n  border: 0;\n  border-radius: 9px;\n  color: #1c2410;\n  background: var(--accent);\n  font-size: 13px;\n  font-weight: 750;\n  transition: background 150ms ease-out;\n}\n.primary-button:hover {\n  background: #e7ff9e;\n}\n.primary-button:active {\n  background: #c9e66b;\n}\n.primary-button[data-state=\"copied\"] {\n  background: #c5e28a;\n}\n.status,\n.visually-hidden {\n  position: absolute;\n  width: 1px;\n  height: 1px;\n  margin: -1px;\n  padding: 0;\n  overflow: hidden;\n  clip-path: inset(50%);\n  white-space: nowrap;\n  border: 0;\n}\n.status[data-state=\"error\"] {\n  position: static;\n  width: auto;\n  height: auto;\n  margin: 12px 0 0;\n  overflow: visible;\n  clip-path: none;\n  white-space: normal;\n  color: var(--error);\n  font-size: 12px;\n  line-height: 1.5;\n}\n@media (prefers-reduced-motion: reduce) {\n  *,\n  *::before,\n  *::after {\n    /* biome-ignore lint/complexity/noImportantStyles: accessibility preferences override control transitions. */\n    transition: none !important;\n  }\n}\n"
+    },
+    {
+      "name": "Lien universel",
+      "kind": "link",
+      "refersTo": "result",
+      "description": "URL affichée seulement lorsqu’un lien existe.",
+      "html": "<section id=\"result\" class=\"result\" aria-label=\"Lien universel\">\n          <a id=\"share-link\" class=\"share-link\" href=\"https://song.link\" aria-label=\"Ouvrir le lien universel dans un nouvel onglet\" target=\"_blank\" rel=\"noopener noreferrer\"><span id=\"share-url\">song.link</span><svg width=\"16\" height=\"16\" viewBox=\"0 0 24 24\" fill=\"none\" aria-hidden=\"true\"><path d=\"M7 17 17 7M7 7h10v10\" stroke=\"currentColor\" stroke-width=\"1.8\" stroke-linecap=\"round\" stroke-linejoin=\"round\" /></svg></a>\n        </section>",
+      "css": ":host {\n  font-family: \"Manrope Variable\", sans-serif;\n  color-scheme: dark;\n  --background: #171a17;\n  --surface: #20251f;\n  --line: #3b4238;\n  --ink: #f3f5ec;\n  --muted: #afb8a7;\n  --accent: #dbf878;\n  --error: #ffb8a8;\n  color: var(--ink);\n  background: var(--background);\n  font-synthesis: none;\n  text-rendering: optimizeLegibility;\n  -webkit-font-smoothing: antialiased;\n}\n\n* {\n  box-sizing: border-box;\n}\n[hidden] {\n  /* biome-ignore lint/complexity/noImportantStyles: hidden overrides the display of controls and SVGs. */\n  display: none !important;\n}\nbody {\n  margin: 0;\n  width: 100%;\n  max-width: 100vw;\n}\nbutton,\ninput {\n  font: inherit;\n}\nbutton,\na {\n  -webkit-tap-highlight-color: transparent;\n}\nbutton {\n  cursor: pointer;\n}\nbutton:disabled {\n  cursor: wait;\n  opacity: 0.6;\n}\na {\n  color: inherit;\n  text-underline-offset: 4px;\n}\nbutton:focus-visible,\na:focus-visible {\n  outline: 2px solid var(--accent);\n  outline-offset: 3px;\n}\n::selection {\n  color: var(--background);\n  background: var(--accent);\n}\n::-webkit-scrollbar {\n  width: 5px;\n}\n::-webkit-scrollbar-thumb {\n  background: var(--line);\n  border-radius: 4px;\n}\n.popup {\n  padding: 16px;\n}\n.header {\n  display: flex;\n  align-items: center;\n  justify-content: space-between;\n  min-height: 28px;\n  margin-bottom: 16px;\n}\n.brand {\n  display: inline-flex;\n  align-items: center;\n  gap: 8px;\n  margin: 0;\n  font-size: 15px;\n  font-weight: 750;\n  letter-spacing: -0.025em;\n}\n.brand-mark {\n  flex-shrink: 0;\n  color: var(--accent);\n}\n.tab-button {\n  display: grid;\n  place-items: center;\n  width: 28px;\n  height: 28px;\n  padding: 0;\n  border: 0;\n  border-radius: 6px;\n  background: transparent;\n  color: var(--muted);\n}\n.tab-button:hover {\n  color: var(--accent);\n  background: var(--surface);\n}\n.input-wrap {\n  display: flex;\n  align-items: center;\n  gap: 8px;\n  padding: 6px 6px 6px 10px;\n  background: var(--surface);\n  border: 1px solid var(--line);\n  border-radius: 9px;\n  transition: border-color 160ms ease-out;\n}\n.input-wrap:focus-within {\n  border-color: var(--accent);\n  outline: 1px solid var(--accent);\n}\n.input-wrap:has([aria-invalid=\"true\"]) {\n  border-color: var(--error);\n}\n.input-icon {\n  flex-shrink: 0;\n  color: var(--muted);\n}\ninput {\n  width: 100%;\n  min-width: 0;\n  padding: 4px 0;\n  color: var(--ink);\n  background: transparent;\n  border: 0;\n  outline: none;\n  font-size: 12px;\n  line-height: 20px;\n  caret-color: var(--accent);\n}\ninput::placeholder {\n  color: var(--muted);\n  opacity: 1;\n}\n.icon-button {\n  flex-shrink: 0;\n  display: grid;\n  place-items: center;\n  width: 30px;\n  height: 30px;\n  border: 0;\n  border-radius: 6px;\n  color: var(--ink);\n  background: #323a2c;\n  transition: background 160ms ease-out;\n}\n.icon-button:hover {\n  background: #424d36;\n}\n.icon-button:active {\n  background: #566344;\n}\n.result {\n  margin-top: 12px;\n}\n.share-link {\n  display: flex;\n  justify-content: space-between;\n  align-items: center;\n  gap: 8px;\n  color: var(--muted);\n  font-size: 12px;\n  line-height: 1.6;\n  text-decoration: none;\n}\n.share-link span {\n  overflow-wrap: anywhere;\n}\n.share-link svg {\n  flex-shrink: 0;\n  color: var(--accent);\n}\n.share-link:hover {\n  color: var(--ink);\n  text-decoration: underline;\n}\n.primary-button {\n  width: 100%;\n  min-height: 42px;\n  margin-top: 12px;\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  gap: 8px;\n  border: 0;\n  border-radius: 9px;\n  color: #1c2410;\n  background: var(--accent);\n  font-size: 13px;\n  font-weight: 750;\n  transition: background 150ms ease-out;\n}\n.primary-button:hover {\n  background: #e7ff9e;\n}\n.primary-button:active {\n  background: #c9e66b;\n}\n.primary-button[data-state=\"copied\"] {\n  background: #c5e28a;\n}\n.status,\n.visually-hidden {\n  position: absolute;\n  width: 1px;\n  height: 1px;\n  margin: -1px;\n  padding: 0;\n  overflow: hidden;\n  clip-path: inset(50%);\n  white-space: nowrap;\n  border: 0;\n}\n.status[data-state=\"error\"] {\n  position: static;\n  width: auto;\n  height: auto;\n  margin: 12px 0 0;\n  overflow: visible;\n  clip-path: none;\n  white-space: normal;\n  color: var(--error);\n  font-size: 12px;\n  line-height: 1.5;\n}\n@media (prefers-reduced-motion: reduce) {\n  *,\n  *::before,\n  *::after {\n    /* biome-ignore lint/complexity/noImportantStyles: accessibility preferences override control transitions. */\n    transition: none !important;\n  }\n}\n"
+    }
+  ],
+  "narrative": {
+    "northStar": "Convertir et copier un lien musical.",
+    "overview": "Marque, champ, résultat conditionnel, action.",
+    "keyCharacteristics": [
+      "Compact",
+      "Olive et citron",
+      "Trois tailles de texte"
+    ],
+    "rules": [
+      "Aucun texte promotionnel.",
+      "Statut visible uniquement en cas d’erreur."
+    ],
+    "dos": [
+      "Garder le focus et les labels accessibles."
+    ],
+    "donts": [
+      "Réintroduire le décor et le pied de page."
+    ]
+  }
+}

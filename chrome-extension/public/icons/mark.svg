@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" fill="none">
+  <title>AutoSongLink</title>
+  <rect width="128" height="128" rx="29" fill="#171a17"/>
+  <g stroke="#dbf878" stroke-width="9" stroke-linecap="round" stroke-linejoin="round">
+    <path d="m53 75-9 9a18 18 0 0 1-26-26l23-23a18 18 0 0 1 26 0M75 53l9-9a18 18 0 0 1 26 26L87 93a18 18 0 0 1-26 0M45 83 83 45"/>
+  </g>
+</svg>

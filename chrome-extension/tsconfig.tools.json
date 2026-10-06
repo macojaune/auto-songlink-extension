@@ -1,0 +1,5 @@
+{
+  "extends": "./tsconfig.json",
+  "compilerOptions": { "types": ["bun", "chrome"], "skipLibCheck": true },
+  "include": ["tests", "scripts", "vite.config.ts"]
+}

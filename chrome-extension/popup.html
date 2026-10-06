@@ -1,32 +1,48 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="fr">
-<head>
-  <meta charset="UTF-8">
-  <title>SongLink Replacer</title>
-  <style>
-    body {
-      width: 300px;
-      min-height: 150px;
-      display: flex;
-      gap: 10px;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-      font-family: Arial, sans-serif;
-      text-align: center;
-    }
-    button {
-      padding: 10px 20px;
-      font-size: 16px;
-    }
-    .error{
-      color: red;
-    }
-  </style>
-</head>
-<body>
-  <span id="infos">Copie le lien de partage Spotify ou Apple Music dans le presse-papier et clique sur le bouton.</span>
-  <button id="replace-link">Remplacer le lien</button>
-  <script src="popup.js"></script>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="color-scheme" content="dark" />
+    <meta name="theme-color" content="#171a17" />
+    <title>AutoSongLink</title>
+    <link rel="icon" href="/icons/32.png" />
+  </head>
+  <body>
+    <main class="popup">
+      <header class="header">
+        <h1 class="brand">
+          <svg class="brand-mark" width="24" height="24" viewBox="0 0 28 28" fill="none" aria-hidden="true"><path d="m11 17-2 2a5 5 0 0 1-7-7l5-5a5 5 0 0 1 7 0M17 11l2-2a5 5 0 0 1 7 7l-5 5a5 5 0 0 1-7 0M9 19 19 9" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" /></svg>
+          AutoSongLink
+        </h1>
+        <button id="use-tab" class="tab-button" type="button" aria-label="Utiliser le lien de cet onglet" title="Utiliser le lien de cet onglet" hidden>
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" aria-hidden="true"><rect x="3" y="4" width="18" height="16" rx="2" stroke="currentColor" stroke-width="1.7" /><path d="M3 8h18m-12 6h6m-3-3 3 3-3 3" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" /></svg>
+        </button>
+      </header>
+
+      <form id="link-form" novalidate>
+        <label for="music-url" class="visually-hidden">Lien musical</label>
+        <div class="input-wrap">
+          <svg class="input-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="m10 14 4-4M8 16l-1 1a4.24 4.24 0 0 1-6-6l4-4a4.24 4.24 0 0 1 6 0m2 2 1-1a4.24 4.24 0 0 1 6 6l-4 4a4.24 4.24 0 0 1-6 0" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" transform="translate(1 0)" /></svg>
+          <input id="music-url" type="text" inputmode="url" placeholder="Colle un lien musical" autocomplete="off" spellcheck="false" />
+          <button id="paste" class="icon-button" type="button" aria-label="Coller depuis le presse-papier" title="Coller depuis le presse-papier">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M9 5H6a2 2 0 0 0-2 2v13a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7a2 2 0 0 0-2-2h-3M9 2h6v6H9z" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" /></svg>
+          </button>
+        </div>
+
+        <section id="result" class="result" aria-label="Lien universel" hidden>
+          <a id="share-link" class="share-link" href="https://song.link" aria-label="Ouvrir le lien universel dans un nouvel onglet" target="_blank" rel="noopener noreferrer"><span id="share-url">song.link</span><svg width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M7 17 17 7M7 7h10v10" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" /></svg></a>
+        </section>
+
+        <button id="convert" class="primary-button" type="submit">
+          <svg id="action-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" aria-hidden="true"><rect x="8" y="8" width="12" height="13" rx="2" stroke="currentColor" stroke-width="1.8" /><path d="M16 8V5a2 2 0 0 0-2-2H5a2 2 0 0 0-2 2v9a2 2 0 0 0 2 2h3" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" /></svg>
+          <svg id="success-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" aria-hidden="true" hidden><path d="m5 12 4 4L19 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" /></svg>
+          <span id="action-label">Convertir et copier</span>
+        </button>
+        <p id="status" class="status" role="status" aria-live="polite" aria-atomic="true"></p>
+      </form>
+
+    </main>
+    <script type="module" src="/src/popup.ts"></script>
+  </body>
 </html>

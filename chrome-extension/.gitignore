@@ -1,0 +1,5 @@
+node_modules/
+dist/
+artifacts/
+.impeccable/*
+!.impeccable/design.json

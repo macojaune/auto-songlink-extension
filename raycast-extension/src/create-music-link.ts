@@ -15,17 +15,33 @@ interface ApiResponse {
 }
 
 const SUPPORTED_PROVIDERS: string[] = [
-  'spotify', 'itunes', 'appleMusic', 'youtube', 'youtubeMusic',
-  'google', 'googleStore', 'pandora', 'deezer', 'tidal',
-  'amazonStore', 'amazonMusic', 'soundcloud', 'napster', 'yandex',
-  'spinrilla', 'audius', 'audiomack', 'anghami', 'boomplay',
+  "spotify",
+  "itunes",
+  "appleMusic",
+  "youtube",
+  "youtubeMusic",
+  "google",
+  "googleStore",
+  "pandora",
+  "deezer",
+  "tidal",
+  "amazonStore",
+  "amazonMusic",
+  "soundcloud",
+  "napster",
+  "yandex",
+  "spinrilla",
+  "audius",
+  "audiomack",
+  "anghami",
+  "boomplay",
 ];
 
 // Function to check if the URL is from a supported provider
 function isSupportedMusicLink(url: string): boolean {
   if (!url) return false;
   const lowercasedUrl = url.toLowerCase();
-  return SUPPORTED_PROVIDERS.some(provider => lowercasedUrl.includes(provider.toLowerCase()));
+  return SUPPORTED_PROVIDERS.some((provider) => lowercasedUrl.includes(provider.toLowerCase()));
 }
 
 export default async function Command() {
@@ -75,14 +91,11 @@ export default async function Command() {
 
     if (!response.ok) {
       let errorMessage = `API Error: ${response.statusText}`;
-      try {
-        const errorData = await response.json() as ApiResponse;
-        if (errorData.error) {
-          errorMessage = `API Error: ${errorData.error}`;
-        }
-      } catch (e) {
-        // Failed to parse error JSON, stick with statusText
+      const errorData = (await response.json()) as ApiResponse;
+      if (errorData.error) {
+        errorMessage = `API Error: ${errorData.error}`;
       }
+      // Failed to parse error JSON, stick with statusText
       await showToast({
         style: Toast.Style.Failure,
         title: "API Request Failed",
@@ -93,7 +106,8 @@ export default async function Command() {
 
     const data = (await response.json()) as ApiResponse;
 
-    if (data.pageUrl) { // Changed from data.multiplatformUrl to data.pageUrl
+    if (data.pageUrl) {
+      // Changed from data.multiplatformUrl to data.pageUrl
       await Clipboard.copy(data.pageUrl); // Changed from data.multiplatformUrl to data.pageUrl
       await showToast({
         style: Toast.Style.Success,

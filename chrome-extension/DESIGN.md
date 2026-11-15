@@ -47,7 +47,7 @@ Manrope Variable locale. Trois tailles : marque15px, action13px, saisie et lien1
 
 ## Layout
 
-Colonne360px limitée à la largeur disponible, padding16px. État vide174px de haut, résultat Spotify205px. Le résultat absent et le statut inactif ne réservent aucun espace. Les URL longues reviennent à la ligne. Vérifié aussi à320px sans débordement horizontal.
+Le document impose une largeur de360px pour que Chrome dimensionne le popup indépendamment du viewport initial, avec un padding de16px de chaque côté. État vide174px de haut, résultat Spotify205px. Le résultat absent et le statut inactif ne réservent aucun espace. Les URL longues reviennent à la ligne.
 
 ## Elevation & Depth
 
